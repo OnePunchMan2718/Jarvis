@@ -8,10 +8,10 @@
 
   ### Desktop Assistance 
 
-  ![License](https://img.shields.io/github/license/OnePunchMan2718/Basic-Jarvis?color=598e3c&style=for-the-badge)
-  ![Lines of Code](https://img.shields.io/tokei/lines/github/OnePunchMan2718/Basic-Jarvis?color=598e3c&style=for-the-badge)
-  ![Code Size](https://img.shields.io/github/languages/code-size/OnePunchMan2718/Basic-Jarvis?color=598e3c&style=for-the-badge)
-  ![Downloads](https://img.shields.io/github/downloads/OnePunchMan2718/Basic-Jarvis/total?color=598e3c&style=for-the-badge)
+  ![License](https://img.shields.io/github/license/OnePunchMan2718/Jarvis?color=598e3c&style=for-the-badge)
+  ![Lines of Code](https://img.shields.io/tokei/lines/github/OnePunchMan2718/Jarvis?color=598e3c&style=for-the-badge)
+  ![Code Size](https://img.shields.io/github/languages/code-size/OnePunchMan2718/Jarvis?color=598e3c&style=for-the-badge)
+  ![Downloads](https://img.shields.io/github/downloads/OnePunchMan2718/Jarvis/total?color=598e3c&style=for-the-badge)
 
   [![Discord Server Invite](https://discord.com/api/guilds/876398373962412102/widget.png?style=banner2)](https://discord.gg/9qKScMjdPF)
 </div>
