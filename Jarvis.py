@@ -11,16 +11,12 @@ import pyjokes
 import datetime
 import requests
 import speedtest
-import psutil
-import PyPDF2
 
 from PyDictionary import PyDictionary as Dictionary
 from playsound import playsound
 from googletrans import Translator
 from bs4 import BeautifulSoup
 from pywikihow import search_wikihow
-from pytube import YouTube
-from gtts import gTTS
 
 Assistant = pyttsx3.init('sapi5')
 voices = Assistant.getProperty('voices')
@@ -62,7 +58,7 @@ def TaskExe():
         musicname = takecommand()
 
         if 'fairytale' in musicname:
-            os.startfile('C:\\Users\\anjis\\Music\\Fairytale_Alexander_Rybak.mp3')
+            os.startfile('[path]')
 
         else:
             pywhatkit.playonyt(musicname)
@@ -73,7 +69,7 @@ def TaskExe():
         Speak("Tell Me The Name Of The Person!")
         name = takecommand()
 
-        if 'debayudh' in name:
+        if '[Name]' in name:
             Speak("Tell Me The Message!")
             msg = takecommand()
             Speak("Tell Me The Time Sir!!")
@@ -81,10 +77,10 @@ def TaskExe():
             hour = int(takecommand())
             Speak("Time In Minutes!")
             min = int(takecommand())
-            pywhatkit.sendwhatmsg("+918420850453",msg,hour,min,20)
+            pywhatkit.sendwhatmsg("+91[Nummber]",msg,hour,min,20)
             Speak("Okay Sir! , Sending Whatsapp Message!!")
 
-        elif 'amit' in name:
+        elif '[Name]' in name:
             Speak("Tell Me The Message!")
             msg = takecommand()
             Speak("Tell Me The Time Sir!!")
@@ -92,10 +88,10 @@ def TaskExe():
             hour = int(takecommand())
             Speak("Time In Minutes!")
             min = int(takecommand())
-            pywhatkit.sendwhatmsg("+919830696353",msg,hour,min,20)
+            pywhatkit.sendwhatmsg("+91[Number]",msg,hour,min,20)
             Speak("Okay Sir! , Sending Whatsapp Message!!")
 
-        elif 'avinibesh' in name:
+        elif '[Name]' in name:
             Speak("Tell Me The Message!")
             msg = takecommand()
             Speak("Tell Me The Time Sir!!")
@@ -103,7 +99,7 @@ def TaskExe():
             hour = int(takecommand())
             Speak("Time In Minutes!")
             min = int(takecommand())
-            pywhatkit.sendwhatmsg("+919830041028",msg,hour,min,20)
+            pywhatkit.sendwhatmsg("+91[Number]",msg,hour,min,20)
             Speak("Okay Sir! , Sending Whatsapp Message!!")
 
         else:
@@ -123,10 +119,10 @@ def TaskExe():
         Speak("Okay Sir! , Wait A Second!")
         
         if 'visual studio code' in query:
-            os.startfile("C:\\Users\\anjis\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe")
+            os.startfile("[Path]")
 
-        elif 'brave' in query:
-            os.startfile("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe")
+        elif 'chrome' in query:
+            os.startfile("[Path]")
 
         elif 'whatsapp app' in query:
             webbrowser.open('https://web.whatsapp.com/')
@@ -146,22 +142,22 @@ def TaskExe():
         Speak("Okay Sir! , Wait A Second!")
 
         if 'youtube' in query:
-            os.system("TASKKILL /F /im brave.exe")
+            os.system("TASKKILL /F /im chrome.exe")
 
-        elif 'brave' in query:
-            os.system("TASKKILL /F /im brave.exe")
+        elif 'chrome' in query:
+            os.system("TASKKILL /F /im chrome.exe")
 
         elif 'visual studio code' in query:
             os.system("TASKKILL /F /im Code.exe")
 
         elif 'whatsapp app' in query:
-            os.system("TASKKILL /F /im brave.exe")
+            os.system("TASKKILL /F /im chrome.exe")
 
         elif 'insta' in query:
-            os.system("TASKKILL /F /im brave.exe")
+            os.system("TASKKILL /F /im chrome.exe")
 
         elif 'maps' in query:
-            os.system("TASKKILL /F /im brave.exe")
+            os.system("TASKKILL /F /im chrome.exe")
 
         Speak("Your Command Has Been Completely Executed!")
 
@@ -194,7 +190,7 @@ def TaskExe():
 
         Speak("Done Sir!")
 
-    def BraveAutomation():
+    def ChromeAutomation():
         Speak("What is your command?")
         command = takecommand()
 
@@ -236,10 +232,10 @@ def TaskExe():
         Speak("Okay Sir! , What Should I Name That File ?")
         path = takecommand()
         path1name = path + ".png"
-        path1 = 'C:\\Users\\anjis\\OneDrive\\Pictures\\Screenshots' + path1name
+        path1 = '[Path]' + path1name
         kk = pyautogui.screenshot()
         kk.save(path1)
-        os.startfile('C:\\Users\\anjis\\OneDrive\\Pictures\\Screenshots')
+        os.startfile('[Path]')
         Speak("Here Is Your Screenshot")
 
     def TakeTran():
@@ -439,7 +435,7 @@ def TaskExe():
             keyboard.press_and_release('ctrl + h')
 
         elif 'brave automation' in query:
-            BraveAutomation()
+            ChromeAutomation()
 
         elif 'joke' in query:
             get = pyjokes.get_joke()
