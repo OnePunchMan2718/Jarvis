@@ -16,7 +16,7 @@
   [![Discord Server Invite](https://discord.com/api/guilds/876398373962412102/widget.png?style=banner2)](https://discord.gg/9qKScMjdPF)
 </div>
 
-Our No. 1 Marvel Character **Iron Man (Tony Stark)'s Right Hand Virtual Partner ***J.A.R.I.S.***** J.A.R.I.S. is a desktop voice assistant which works on the voice command offered to it, it can do voice searching, voice-activated device control, and can let us complete a set of tasks. It makes it easier to complete any task as it automatically does it by using the essential module or libraries of Python, in a conversational interaction way. Hence any user when instructs on any task to it, because of the conversational interaction for giving input and getting the desired output in the form of a task done. The main application of it can be its multitasking ability. It can ask for continuous instructions one after the other until the user says “GO TO SLEEP” it.
+Our No. 1 Marvel Character **Iron Man (Tony Stark)'s Right Hand Virtual Partner ***J.A.R.V.I.S.***** J.A.R.V.I.S. is a desktop voice assistant which works on the voice command offered to it, it can do voice searching, voice-activated device control, and can let us complete a set of tasks. It makes it easier to complete any task as it automatically does it by using the essential module or libraries of Python, in a conversational interaction way. Hence any user when instructs on any task to it, because of the conversational interaction for giving input and getting the desired output in the form of a task done. The main application of it can be its multitasking ability. It can ask for continuous instructions one after the other until the user says “GO TO SLEEP” it.
 
 ## Installation
 
