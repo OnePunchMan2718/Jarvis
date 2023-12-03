@@ -21,7 +21,7 @@ Our No. 1 Marvel Character **Iron Man (Tony Stark)'s Right Hand Virtual Partner 
 ## Installation
 
 1. Download The Zip File Under Code.
-2. "https://github.com/OnePunchMan2718/Basic-Jarvis.git" or you can clone using this.
+2. Or you can [clone](https://github.com/OnePunchMan2718/Basic-Jarvis.git).
 
 ## Usage
 
