@@ -6,6 +6,8 @@
 
   # [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Permanent+Marker&size=40&pause=1000&color=2986cc&center=true&vCenter=true&width=435&lines=Jarvis)](https://git.io/typing-svg)
 
+  </div>
+
   ### Desktop Assistance 
 
   ![License](https://img.shields.io/github/license/OnePunchMan2718/Jarvis?color=598e3c&style=for-the-badge)
@@ -16,47 +18,58 @@
   [![Discord Server Invite](https://discord.com/api/guilds/876398373962412102/widget.png?style=banner2)](https://discord.gg/9qKScMjdPF)
 </div>
 
-Our No. 1 Marvel Character **Iron Man (Tony Stark)'s Right Hand Virtual Partner ***J.A.R.V.I.S.***** J.A.R.V.I.S. is a desktop voice assistant which works on the voice command offered to it, it can do voice searching, voice-activated device control, and can let us complete a set of tasks. It makes it easier to complete any task as it automatically does it by using the essential module or libraries of Python, in a conversational interaction way. Hence any user when instructs on any task to it, because of the conversational interaction for giving input and getting the desired output in the form of a task done. The main application of it can be its multitasking ability. It can ask for continuous instructions one after the other until the user says “GO TO SLEEP” it.
+Our No. 1 Marvel Character **Iron Man (Tony Stark)'s Right Hand Virtual Partner ***J.A.R.V.I.S.***** J.A.R.V.I.S. is a desktop voice assistant which works on the voice command offered to it, it can do voice searching, voice-activated device control, and can let us complete a set of tasks. It makes it easier to complete any task as it automatically does it by using the essential module or libraries of Python, in a conversational interaction way. Hence any user when instructs on any task to it, because of the conversational interaction for giving input and getting the desired output in the form of a task done. The main application of it can be its multitasking ability.
 
 ## Installation
 
-1. Download The Zip File Under Code.
-2. Or you can [clone](https://github.com/OnePunchMan2718/Basic-Jarvis.git).
+1. Download The Zip Folder Under Code.
+2. Open The Jarvis File With [Visual Studio Code](https://code.visualstudio.com/docs/setup/windows)
+3. Open [Command Prompt With Administrative Permission](https://gearupwindows.com/how-to-open-command-prompt-cmd-as-administrator-in-windows-11/) & Type ```pip install selenium, bardapi, pyperclip, datetime, keyboard, pyautogui```
 
 ## Usage
 
 To run the project, use the following Method:
-1. Open The Jarvis.py file in the editor.
-2. Open The Terminal And Download the Modules.
 
-#### **![#f03c15](https://www.iconsdb.com/icons/download/color/f03c15/circle-16.png) `Caution:`**
-```markdown
-*If while downloading playsound in terminal. There may occur a error. You Just Have To do:
-```
-```
-pip install --upgrade wheel
-```
-3. After Downloading Run The Program.
+1. Open The Jarvis Folder In Visual Studio Code.
+2. Open Command Promt & Type ```python Listen.py```.
+3. In Visual Studio Code Run Any AI Based File.
 
 ***- Now Relax and Enjoy***
 
 ## Features
 
 - Music
-- Whatsapp
-- Open or Close Any Programs
-- Youtube Automation
-- Browser Automation
 - Dictionary
-- Screenshot
 - Translation To Any Language
 - Temperature Of Your Local Area
 - Speed Test Of Your Internet
-- Google Search [Just Like Google Assistant]
+- Any Query You Have
 - Tells You A Joke
 - Tells You Your Current Location
-- Alarm
-- Acts As A reminder 
+
+## Troubleshooting "Bard.py"
+
+**If you encounter any issues while using "Bard.py," follow these steps for resolution:**
+
+- 1 - $\textcolor{red}{Preparation:}$ Ensure you are logged into the Google Bard website and have interacted with Google Bard manually at least once before running this code.
+- 2 - $\textcolor{red}{Chrome \ Extension:}$ Install the "EditThisCookie" Chrome Extension in your Chrome browser & Pin The Etension.
+- 3 - $\textcolor{red}{Default \ Browser:}$ Set Google Chrome as your default web browser.
+- 4 - $\textcolor{red}{Coordinate \ Points:}$ You must configure your own coordinate points for automating the cookies extraction process. For Your Mouse Coordinate Position Use The ```alibaba.py``` file.
+- 5 - $\textcolor{red}{Packages:}$ Ensure that you have installed all the required packages mentioned above on your computer.
+
+## Troubleshooting "ChatGPT.py"
+
+**If you encounter any problems while using "ChatGPT.py," follow these steps:**
+
+- 1 - $\textcolor{red}{Chrome \ Driver \ Compatibility:}$ Download the compatible version of the Chrome driver.
+- 2 - $\textcolor{red}{Configure \ Chrome \ Driver \ Path:}$ Ensure that you correctly specify the executable path of chromedriver in your code for Selenium automation.
+- 3 - $\textcolor{red}{ Consider \ Slow \ Internet/PC:}$ If you have a slow internet connection or a sluggish computer, consider adding sleep functions in your code to allow sufficient time for processes to load and run smoothly.
+
+**If issues persist, join our Discord Server and provide a screenshot of the error for assistance or contact me**
+
+My [Instagram Profile](https://www.instagram.com/anjishnu_sengupta/)
+
+$\textcolor{olive}{Thank \ you \ for \ choosing \ this \ project. \ We \ hope \ it \ proves \ useful \ and \ delivers \ a \ seamless \ experience \ for \ your \ automation \ needs!}$
 
 ## Contributing
 
